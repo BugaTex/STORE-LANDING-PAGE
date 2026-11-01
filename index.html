@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character Encoding & Responsive Viewport Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxeGear | Modern Online Store</title>
+
+  <!-- Bootstrap 5 CSS Framework CDN (Extra Points Requirement) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom External CSS File -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 shadow-sm">
+      <div class="container">
+        <!-- Store Brand Logo -->
+        <a class="navbar-brand fw-bold fs-3 text-warning" href="#">
+          <i class="bi bi-bag-check-fill me-2"></i>LuxeGear
+        </a>
+
+        <!-- Mobile Navigation Toggle Button -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Header Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-uppercase fw-semibold fs-6">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ================= HERO BANNER ================= -->
+  <section id="home" class="hero-section text-center text-white d-flex align-items-center">
+    <div class="container">
+      <h1 class="display-3 fw-bold mb-3">Elevate Your Lifestyle</h1>
+      <p class="lead mb-4">Discover high-performance audio and everyday tech gear built for modern life.</p>
+      <a href="#products" class="btn btn-warning btn-lg fw-bold px-4 py-2 shadow-sm">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCT SECTION ================= -->
+  <section id="products" class="py-5 bg-light">
+    <div class="container my-4">
+      <!-- Section Title Header -->
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold text-dark">Featured Products</h2>
+        <div class="bg-warning mx-auto rounded" style="height: 4px; width: 60px;"></div>
+      </div>
+
+      <!-- Responsive Grid Container: 1 col on mobile, 2 on tablet, 4 on desktop -->
+      <div class="row g-4">
+
+        <!-- Product Card 1 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm product-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Pro Headphones">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5 fw-bold mb-2">Pro Headphones</h3>
+              <p class="card-text text-muted small flex-grow-1">Active noise-canceling over-ear wireless headphones with 40-hour battery life.</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fs-5 fw-bold text-dark">$299.99</span>
+                <a href="#" class="btn btn-outline-dark fw-semibold btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm product-card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Smart Watch">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5 fw-bold mb-2">Smart Watch</h3>
+              <p class="card-text text-muted small flex-grow-1">Sleek smartwatch featuring health tracking, AMOLED display, and water resistance.</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fs-5 fw-bold text-dark">$189.50</span>
+                <a href="#" class="btn btn-outline-dark fw-semibold btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm product-card">
+            <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Studio Earbuds">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5 fw-bold mb-2">Studio Earbuds</h3>
+              <p class="card-text text-muted small flex-grow-1">Compact true-wireless earbuds delivering deep bass and crystal-clear calls.</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fs-5 fw-bold text-dark">$129.00</span>
+                <a href="#" class="btn btn-outline-dark fw-semibold btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm product-card">
+            <img src="https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Home Audio Hub">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5 fw-bold mb-2">Home Audio Hub</h3>
+              <p class="card-text text-muted small flex-grow-1">360-degree spatial sound speaker integrated with voice assistant control.</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fs-5 fw-bold text-dark">$149.99</span>
+                <a href="#" class="btn btn-outline-dark fw-semibold btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6">
+          <h2 class="display-5 fw-bold mb-3">About LuxeGear</h2>
+          <p class="lead text-muted">We craft premium audio and everyday tech gear designed for modern life. Every product is engineered for performance, durability, and style.</p>
+          <p class="text-muted">From wireless headphones to smart home audio, LuxeGear brings cutting-edge technology to your fingertips with a focus on quality and customer satisfaction.</p>
+          <a href="#products" class="btn btn-warning fw-bold mt-2">Shop the Collection</a>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow-sm" alt="About LuxeGear">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold text-dark">Get In Touch</h2>
+        <div class="bg-warning mx-auto rounded" style="height: 4px; width: 60px;"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <form class="p-4 bg-white rounded shadow-sm">
+            <div class="mb-3">
+              <label for="name" class="form-label fw-semibold">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label fw-semibold">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label fw-semibold">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="How can we help?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning fw-bold w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4 align-items-center border-bottom pb-4 border-secondary">
+        
+        <!-- Brand Summary -->
+        <div class="col-12 col-md-6 text-center text-md-start">
+          <h4 class="fw-bold text-warning mb-2"><i class="bi bi-bag-check-fill me-2"></i>LuxeGear</h4>
+          <p class="text-secondary small mb-0">Premium devices crafted for performance and everyday style.</p>
+        </div>
+
+        <!-- Social Media Navigation Links -->
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <a href="#" class="text-white me-3 fs-5 social-link"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white me-3 fs-5 social-link"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3 fs-5 social-link"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-white fs-5 social-link"><i class="bi bi-youtube"></i></a>
+        </div>
+
+      </div>
+
+      <!-- Copyright Notice -->
+      <div class="text-center pt-4">
+        <p class="text-secondary small mb-0">&copy; 2026 LuxeGear Store. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JavaScript Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
